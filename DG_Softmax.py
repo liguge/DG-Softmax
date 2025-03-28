@@ -128,8 +128,7 @@ def adamargin(data):
         margin = []
         for j in range(num):
             if j != i:
-                # condition = 6 * (sta[i] + sta[j]) - abs(mean[i] - mean[j])
-                condition = 3 * (sta[i] + sta[j]) - abs(mean[i] - mean[j])   #类别-1？
+                condition = 6 * (sta[i] + sta[j]) - abs(mean[i] - mean[j])   
                 if condition < 0:
                     margin.append(0.)
                 elif condition > 0:
