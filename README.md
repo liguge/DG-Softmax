@@ -9,3 +9,4 @@ pages = {111057},
 year = {2025},
 author = {Quan Qian and Qijun Wen and Rui Tang and Yi Qin}
 }
+https://github.com/QinYi-team/DG-Softmax
